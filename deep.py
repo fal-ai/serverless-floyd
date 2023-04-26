@@ -21,7 +21,7 @@ def setup():
 
 
 @isolated(requirements=requirements, machine_type="M")
-def generate_image():
+def generate_image(text_input):
     a = setup()
     return a
 
