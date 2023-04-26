@@ -35,6 +35,6 @@ with st.form(key="my_form"):
 
 if submit_button:
     img64 = generate_image(text_input)
-    image = Image.open(io.BytesIO(base64.b64decode(img64)))
-
-    st.image(image)
+    # image = Image.open(io.BytesIO(base64.b64decode(img64)))
+    st.text("test")
+    # st.image(image)
